@@ -11,14 +11,14 @@ class Color:
 
 class Auth:
     discord_auth = {
-        "debug": os.getenv("discord_token"), #discord bot debug token
+        "debug": os.getenv("MTAwNjI3MTM5NDU1Mzc5MDU3NQ.G3Qjmo.ik1tjF32cMSIoDHwpdJmjPy1olNnT6slvprlCk"), #discord bot debug token
         "release": os.getenv("discord_token") #you can enter token from debug
     }
     mongo_auth = {
-        "url": os.getenv("mongo_cluster_url"), #mongo db url like "cluster1.free.mongodb.com"
-        "username": os.getenv("mongodb_username"), #mongo db username. exmaple "ArtemBay"
+        "url": os.getenv("mongodb+srv://hiprotect1:<turtle2009K>@hiprotect1.dxbiy6i.mongodb.net/Database?retryWrites=true&w=majority"), #mongo db url like "cluster1.free.mongodb.com"
+        "username": os.getenv("hiProtect1"), #mongo db username. exmaple "ArtemBay"
         "auth":{
-            "debug": os.getenv("mongodb_password"), #mongo db password. looks like random symbols
+            "debug": os.getenv("turtle2009K"), #mongo db password. looks like random symbols
             "release": os.getenv("mongodb_password") #same password with debug
         }
     }
