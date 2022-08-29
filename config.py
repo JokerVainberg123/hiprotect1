@@ -15,7 +15,7 @@ class Auth:
         "release": os.getenv("discord_token") #you can enter token from debug
     }
     mongo_auth = {
-        "url": os.getenv("mongodb+srv://hiprotect1:<turtle2009K>@hiprotect1.dxbiy6i.mongodb.net/Database?retryWrites=true&w=majority"), #mongo db url like "cluster1.free.mongodb.com"
+        "url": os.getenv("mongodb+srv://hiprotect1:<turtle2009KK>@hiprotect1.dxbiy6i.mongodb.net/Database?retryWrites=true&w=majority"), #mongo db url like "cluster1.free.mongodb.com"
         "username": os.getenv("hiProtect1"), #mongo db username. exmaple "ArtemBay"
         "auth":{
             "debug": os.getenv("turtle2009K"), #mongo db password. looks like random symbols
